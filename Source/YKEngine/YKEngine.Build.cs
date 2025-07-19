@@ -12,9 +12,10 @@ public class YKEngine : ModuleRules
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
+		bEnableUndefinedIdentifierWarnings = false;
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
-		
+
 		// Uncomment if you are using online features
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
